@@ -1,0 +1,87 @@
+/* Contenedor principal */
+.navbar {
+  background-color: #ffe600; /* Color amarillo de MercadoLibre */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Logo */
+.navbar-logo-image {
+  height: 40px;
+}
+
+/* Barra de búsqueda */
+.navbar-search {
+  display: flex;
+  flex: 1;
+  margin: 0 20px;
+}
+
+.navbar-search-input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.navbar-search-button {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.navbar-search-icon {
+  height: 20px;
+  width: 20px;
+}
+
+/* Enlaces de navegación */
+.navbar-links {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.navbar-link:hover {
+  color: #007bff; /* Azul claro */
+}
+
+/* Menú de usuario */
+.navbar-user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar-user-login {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar-cart-icon {
+  height: 24px;
+  width: 24px;
+}
